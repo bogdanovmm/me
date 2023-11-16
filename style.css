@@ -88,7 +88,12 @@ h3 > span {
     * {
         grid-template-columns: 1fr !important;
     }
+    header, main {
+        padding: 25px 10px !important;
+    }
     header > img {
+        max-width: 100%;
+        object-fit: cover;
         margin: 0 auto;
     }
     main {
